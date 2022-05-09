@@ -1,0 +1,79 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* The animation code */
+@keyframes example {
+    from {font-size: 60px; opacity: 0.5;}
+    to {font-size: 100px;}
+  }
+
+/* FONTS */
+
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #d417ce;
+    text-shadow: -1px 0 #d265ce, 0 1px #d265ce, 1px 0 #d265ce, 0 -1px #d265ce;
+    border-width: 1rem;
+    position: relative;
+    text-align: center;
+    top: 20vh;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+h2{    
+    font-size: 3rem;
+    font-weight: 600;
+    color: #de86db;
+}
+
+a{
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+/* CLASSES */
+
+.text{
+    max-width: 120vh;
+
+    position: relative;    
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    top: 35vh;
+}
+
+.signup-login{
+    position: relative;
+    text-align: center;
+    top: 35vh;
+    max-width: 100vh;
+}
+
+.row-1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #9c9c9c;
+
+    position: relative;
+    text-align: center;
+    top: 10vh;
+    max-width: 100vh;
+}
+
+.btn{
+    background-color: #1c1c1c;
+    width: 15vh;
+    height: 6vh;
+    margin: 10px;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* HOVER */

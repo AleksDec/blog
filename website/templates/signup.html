@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %} SignUp {% endblock %}
+{% block content %}
+<!-- CSS styles -->
+<link rel="stylesheet" href="{{url_for('static', filename='css/auth.css')}}">
+
+<h2 align="center">Sign Up</h2>
+
+<div class="whole-form">
+  <form method="POST">
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="Enter Email">
+    </div>
+  
+    <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+      <input type="username" id="username" name="username" class="form-control" placeholder="Username">
+    </div>
+  
+    <div class="mb-3">
+      <label for="password1" class="form-label">Password</label>
+      <input type="password1" id="password1" name="password1" class="form-control" placeholder="Password">
+    </div>
+  
+    <div class="mb-3">
+      <label for="password2" class="form-label">Password Again</label>
+      <input type="password2" id="password2" name="password2" class="form-control" placeholder="Repeat Password">
+    </div>
+  
+    <div align="center">
+      <button type="submit" class="btn btn-outline-light">Sign Up</button>
+    </div>
+  
+  </form>
+</div>
+
+{% endblock %}

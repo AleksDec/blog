@@ -1,0 +1,37 @@
+body{
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* The animation code */
+
+/* FONTS */
+h2{    
+    font-size: 3rem;
+    font-weight: 600;
+    color: #9c9c9c;
+    margin-top: 10vh;
+}
+
+/* CLASSES */
+
+.whole-form{
+    font-family: 'Nunito Sans', sans-serif;
+    max-width: 80vh;
+    margin: auto;
+    position: relative;
+    top: 5vh;
+}
+
+.form-label{
+    color: #9c9c9c;
+    font-size: large;
+}
+
+.btn{
+    background-color: #1c1c1c;
+    font-size: large;
+    width: 15vh;
+    height: 6vh;
+    margin: 50px;
+}

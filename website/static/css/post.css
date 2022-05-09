@@ -1,0 +1,65 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: none;
+    background-color: #eae2ea;
+}
+
+/* The animation code */
+
+
+/* FONTS */
+
+h2, h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e9eff0;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+/* CLASSES */
+.head{
+    background-size: cover;
+    position: relative;
+    top: -10vh;
+    z-index: -1;
+    min-height: 50vh;
+    text-align: center;
+    padding: 15vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: fit-content;
+    
+}
+
+.gray{
+    background-color: rgb(26, 107, 128, 0.7);
+    padding: 5vh;
+    border-radius: 5px;
+}
+
+.author-date{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #98a4a9;
+    margin-top: 5vh;
+}
+
+.btn{
+    color: #eae2ea;
+    background-color: #2b2b2b;
+    text-decoration: none;margin-bottom: 40px;
+}
+
+
+/* HOVER */
+
+/* MEDIA */

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %} Blog {% endblock %}
+{% block content %}
+
+<!-- CSS styles -->
+<link rel="stylesheet" href="{{url_for('static', filename='css/blog.css')}}">
+
+
+<div class="header container-fluid">
+  <h2>'Inside everyone there's a universe, a gigantic cosmos brimming with stars.'</h2>
+  <div class="span">
+    <span><b>Artem Chapeye, </b><c>The New Yorker, </c><b>28 Mar. 2022</c></span>
+  </div>  
+</div>
+<div class="gray"></div>
+
+{% if current_user.is_authenticated %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      {% for post in all_posts %}
+      <div>
+        <a href="{{url_for('views.show_post', post_id=post.id)}}">
+          <h3>
+            {{post.title}}
+          </h3>
+          <h4>
+            {{post.subtitle}}
+          </h4>
+        </a>
+        <p>Posted by
+          <e>{{post.author.username}}</e>
+          <f>, {{post.date}}</f>
+          {% if current_user.id == 1 %}
+          <a class ='x' href="#">✘</a>
+          {% endif %}
+        </p>
+        <div class="line"></div>
+      </div>
+      <hr>
+      {% endfor %}
+
+      <!-- New Post -->
+      {% if current_user.id == 1 %}
+      <a class="btn float-right btn-lg" href="{{url_for('views.add_new_post')}}">Create New Post</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<hr>
+{% endif %}
+
+
+{% endblock %}

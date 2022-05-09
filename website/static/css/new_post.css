@@ -1,0 +1,42 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* The animation code */
+
+/* FONTS */
+
+h2{    
+    font-size: 3rem;
+    font-weight: 600;
+    color: #de86db;
+}
+
+/* CLASSES */
+.text{
+    max-width: 120vh;
+    position: relative;    
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.subheading{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #9c9c9c;
+}
+
+.container{
+    font-size: 1.2rem;
+    color: #9c9c9c;
+    max-width: 1000px;
+    min-height: 600px;
+    margin: auto;
+    margin-bottom: 300px;
+    position: relative;
+    top: 10vh;
+
+}
+
+/* HOVER */

@@ -1,0 +1,16 @@
+body{
+    background-image: url('../images/pink_cosmos.jpg');
+}
+
+/* The animation code */
+
+/* FONTS */
+
+
+/* CLASSES */
+
+.navbar{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #84127b;
+    border-radius: 5px;
+  }

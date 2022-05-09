@@ -1,0 +1,133 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: none;
+    background-color: #eae2ea;
+    position: relative;
+}
+
+/* The animation code */
+/* @keyframes example {
+    from {font-size: 60px; opacity: 0.5;}
+    to {font-size: 100px;}
+  } */
+
+/* FONTS */
+
+h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    color: #6ec2d8;
+    text-shadow: -0.5px 0 #1a6b80, 0 0.5px #1a6b80, 0.5px 0 #1a6b80, 0 -0.5px #1a6b80;
+}
+
+span {
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: #97e2f5;
+    text-shadow: -0.5px 0 #1a6b80, 0 0.5px #1a6b80, 0.5px 0 #1a6b80, 0 -0.5px #1a6b80;
+}
+
+c {
+    font-style: italic;
+}
+
+h3, h4{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #2b2b2b;
+}
+
+h4{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #2b2b2b;
+}
+
+e, f {
+    font-style: italic;
+}
+
+e{
+    font-weight: 400;
+}
+
+hr{
+    margin-bottom: 50px;
+}
+
+/* CLASSES */
+.header{
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    top: -10vh;
+    z-index: -1;
+    padding: 200px 100px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.span{
+    padding: 20px;
+}
+
+.gray{
+    background-color: #1a6b80;
+    opacity: 0.8;
+    height: 10vh;
+    position: relative;
+    top: -17vh;
+    z-index: -2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.x{
+    color: #2b2b2b;
+    margin-left: 40px;
+}
+
+.line{
+    background-color: #1a6b80;
+    height: 4px;
+}
+
+.btn{
+    color: #eae2ea;
+    background-color: #2b2b2b;
+}
+
+
+/* HOVER */
+
+/* MEDIA */
+@media (max-width: 800px){
+    .header{
+        min-height: 60vh;
+    }
+}
+
+@media (max-width: 600px){
+    .header{
+        min-height: 65vh;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    b, c{
+        font-size: 1.3rem;
+    }
+}
